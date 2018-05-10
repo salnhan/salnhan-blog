@@ -78,4 +78,4 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: https://github.com/salnhan/salnhan-blog.git
-  type: git
+type: git
