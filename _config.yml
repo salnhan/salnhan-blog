@@ -8,13 +8,13 @@ subtitle: SNB
 description: Blog 
 keywords:
 author: Sal Nhan
-language: VI
-timezone:
+language: vi
+timezone: Europe/Berlin
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://salnhan.github.io/salnhan-blog
+root: /salnhan-blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -77,7 +77,7 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: https://github.com/salnhan/salnhan-blog.git
-  type: git
-  branch: gh-pages
-  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+deploy:
+ type: git
+ repo: https://github.com/salnhan/salnhan-blog.git
+ branch: gh-pages
